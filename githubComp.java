@@ -25,4 +25,8 @@ public class githubComp {
         System.out.println(product);
 
     }
+
+    public static int factorial(int num){ // method header
+    }
+
 }
