@@ -23,6 +23,7 @@ public class githubComp {
             }
         }
         System.out.println(product);
+        System.out.println(factorial(7));
 
     }
 
