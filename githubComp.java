@@ -26,10 +26,11 @@ public class githubComp {
 
     }
 
-    public static int factorial(int num){ // method header
-        if (num == 1 || num == 0){ //base case - editor: Iris
+    public static int factorial(int num) { // method header
+        if (num == 1 || num == 0) { // base case - editor: Iris
             return 1 * num;
+        } else {
+            return factorial(num - 1) * num;
         }
     }
-
 }
